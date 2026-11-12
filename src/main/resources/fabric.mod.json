@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "olib",
+  "version": "${version}",
+  "name": "O Lib",
+  "description": "The versatile core engine behind your favorite mods.",
+  "authors": [
+    "Tarek Sharabaty",
+    "Oidioom"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/olib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.oidioomstudio.olib.OLibMod"
+    ],
+    "client": [
+      "com.oidioomstudio.olib.client.OLibClientMod"
+    ],
+    "modmenu": [
+      "com.oidioomstudio.olib.client.OLibModMenuIntegration"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.instagram.lordotarik": "https://www.instagram.com/lordotarik",
+        "modmenu.instagram.oidioom": "https://www.instagram.com/oidioom"
+      }
+    }
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "olib.mixins.json"
+  ]
+}

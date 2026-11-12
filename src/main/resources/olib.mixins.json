@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.oidioomstudio.olib.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientLanguageMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
